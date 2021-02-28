@@ -1,9 +1,11 @@
-var express = require("express");
+const express = require("express");
+const cors = require("cors");
 
-var indexRouter = require("./main/routes/getHero");
+const indexRouter = require("./main/routes/getHero");
 
-var app = express();
+const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
