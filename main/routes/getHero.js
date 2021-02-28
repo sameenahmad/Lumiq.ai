@@ -18,7 +18,11 @@ router.post("/getHero", function (req, res) {
   }
 
   if (isNaN(heroCode)) {
-    return sendError(res, 400, "Missing hero code");
+    return sendError(res, 400, "Invalid hero code. Please send digits between 2-9");
+  }
+
+  if (heroCode.includes("1") || heroCode.includes("0")) {
+    return sendError(res, 400, "Invalid hero code. Please send digits between 2-9");
   }
 
   const hero = getHeroFromCode(0, "", heroCode);
