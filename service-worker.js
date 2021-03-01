@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Lumiq.ai/precache-manifest.fa667ce33ced787bb1d8587ee3e05899.js"
+  "/Lumiq.ai/precache-manifest.6cebefaf97511eb6b63c994f621eca61.js"
 );
 
 self.addEventListener('message', (event) => {

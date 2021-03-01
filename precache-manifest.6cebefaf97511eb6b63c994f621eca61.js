@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5a271b2e5e974fe4b45edbcf1e12c3f",
+    "revision": "cb628f53b80fe09c4d80a01787e39446",
     "url": "/Lumiq.ai/index.html"
   },
   {
-    "revision": "a9dffad76cce735d0185",
-    "url": "/Lumiq.ai/static/css/main.b7167556.chunk.css"
+    "revision": "4f357438527c726314cc",
+    "url": "/Lumiq.ai/static/css/main.97840e7a.chunk.css"
   },
   {
-    "revision": "57620889a5396c429b5b",
-    "url": "/Lumiq.ai/static/js/2.982cb2f7.chunk.js"
+    "revision": "7aedff04e179fa230f0d",
+    "url": "/Lumiq.ai/static/js/2.194be32e.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/Lumiq.ai/static/js/2.982cb2f7.chunk.js.LICENSE.txt"
+    "url": "/Lumiq.ai/static/js/2.194be32e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9dffad76cce735d0185",
-    "url": "/Lumiq.ai/static/js/main.281cd9a7.chunk.js"
+    "revision": "4f357438527c726314cc",
+    "url": "/Lumiq.ai/static/js/main.d36656fa.chunk.js"
   },
   {
     "revision": "8ca9b044c4cc171279e9",
