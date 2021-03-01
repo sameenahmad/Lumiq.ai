@@ -1,6 +1,4 @@
-// const url = "https://instinctive-goofy-steel.glitch.me";
-
-const url = "http://localhost:8000";
+const url = "https://instinctive-goofy-steel.glitch.me";
 
 export default async function getHero(data) {
   try {

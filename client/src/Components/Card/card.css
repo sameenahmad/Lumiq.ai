@@ -1,27 +1,111 @@
 .card-container {
   display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 0.4rem;
-  width: 25%;
-  height: 65%;
-  box-shadow: 10px 10px 18px #ececec;
+  width: 25vw;
+  height: 65vh;
+  box-shadow: 5px 5px 18px #ececec;
 }
 
-.dialpad-grid-row{
+.section {
   display: flex;
+  width: 100%;
+  padding: 1rem;
 }
 
-.dialpad-grid-item {
-  display: flex;
-  padding: 1.3rem;
-  flex-direction: column;
-  border: 1px solid #ececec;
-}
-
-.number-container {
+.dialpad-container {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  padding: 1rem;
+  width: 95%;
   flex-wrap: wrap;
+}
+
+#hero {
+  height: 5rem;
+}
+
+#hero > h4 {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: #484848;
+}
+
+#number-panel {
+  height: 4rem;
+  justify-content: flex-end;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+#number-panel > h2 {
+  font-size: 2rem;
+}
+
+.digit-container {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.number-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.digit {
+  padding: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #484848;
+}
+
+.chars {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b3b3b3;
+}
+
+.clear-img {
+  width: 35px;
+  height: 21px;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.error{
+  color: #FF3466;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-container {
+    width: 45vw;
+    height: 78vh;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .card-container {
+    width: 85vw;
+    height: 75vh;
+  }
+
+}
+
+/*Mobile Query*/
+@media only screen and (max-width:480px) {
+ .card-container {
+    width: 85vw;
+    height: 85vh;
+  }
+
+  .dialpad-container{
+    width: 100%;
+  }
 
 }

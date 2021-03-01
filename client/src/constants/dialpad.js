@@ -8,9 +8,27 @@ const dialpad = {
   7: "pqrs",
   8: "tuv",
   9: "wxyz",
-  "*": "space",
-  0: "0",
+  "*": "send",
+  0: "",
   "#": "space",
 };
 
-module.exports = dialpad;
+const dialpadSequence = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  "*",
+  0,
+  "#",
+]
+
+module.exports = {
+  dialpadSequence,
+  dialpad
+};
