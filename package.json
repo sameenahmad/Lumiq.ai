@@ -18,6 +18,5 @@
   },
   "homepage": "https://github.com/sameenahmad/Lumiq.ai#readme",
   "dependencies": {
-    "express": "^4.17.1"
   }
 }
