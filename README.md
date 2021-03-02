@@ -25,10 +25,10 @@ The program should map the standard telephone keypad numbers to corresponding le
 
 Running the program:
 
-<strong> Running Client: npm run start:client </strong>
+<strong> Running Client: </strong> `npm run start:client`
 
 
-<strong> npm run start:server && Running Server </strong>
+<strong> Running Server:  </strong> `npm run start:server`
 
 The program takes the input in the form of `0<space><herocode>`, and :tada. Find the superhero to save you. 
 
